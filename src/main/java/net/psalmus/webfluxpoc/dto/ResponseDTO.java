@@ -5,7 +5,7 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.dto;
+package net.psalmus.webfluxpoc.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;

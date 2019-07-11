@@ -5,9 +5,9 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.router;
+package net.psalmus.webfluxpoc.router;
 
-import net.psalmus.reactivepoc.handler.api.GreetingHandler;
+import net.psalmus.webfluxpoc.handler.api.GreetingHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;

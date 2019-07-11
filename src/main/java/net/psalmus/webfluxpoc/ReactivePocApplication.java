@@ -5,7 +5,7 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc;
+package net.psalmus.webfluxpoc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

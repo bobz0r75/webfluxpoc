@@ -5,7 +5,7 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.handler.api;
+package net.psalmus.webfluxpoc.handler.api;
 
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;

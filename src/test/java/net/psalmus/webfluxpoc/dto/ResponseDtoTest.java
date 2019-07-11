@@ -5,7 +5,7 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.dto;
+package net.psalmus.webfluxpoc.dto;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;

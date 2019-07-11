@@ -5,14 +5,14 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.router;
+package net.psalmus.webfluxpoc.router;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-import net.psalmus.reactivepoc.dto.ResponseDTO;
-import net.psalmus.reactivepoc.handler.api.GreetingHandler;
+import net.psalmus.webfluxpoc.dto.ResponseDTO;
+import net.psalmus.webfluxpoc.handler.api.GreetingHandler;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Before;
 import org.junit.Test;

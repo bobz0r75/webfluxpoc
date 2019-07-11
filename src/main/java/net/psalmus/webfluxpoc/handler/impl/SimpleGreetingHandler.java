@@ -5,10 +5,10 @@
  * Unauthorized using, copying, distributing or providing this program`s
  * source code is prohibited.
  */
-package net.psalmus.reactivepoc.handler.impl;
+package net.psalmus.webfluxpoc.handler.impl;
 
-import net.psalmus.reactivepoc.dto.ResponseDTO;
-import net.psalmus.reactivepoc.handler.api.GreetingHandler;
+import net.psalmus.webfluxpoc.dto.ResponseDTO;
+import net.psalmus.webfluxpoc.handler.api.GreetingHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
