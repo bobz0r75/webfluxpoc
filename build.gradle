@@ -1,5 +1,8 @@
 buildscript {
     ext {
+        groupId = "net.psalmus"
+        artifactId = "webflux-poc"
+        projectVersion = "0.1-SNAPSHOT"
         springBootVersion = '2.1.6.RELEASE'
         lang3Version = '3.9'
     }
@@ -11,14 +14,19 @@ buildscript {
     }
 }
 
+plugins {
+    id "jacoco"
+    id "org.sonarqube" version "2.7"
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'webflux-poc'
-    version = '0.1-SNAPSHOT'
+    baseName = "${artifactId}"
+    version = "${projectVersion}"
 }
 
 sourceCompatibility = 11
@@ -33,4 +41,12 @@ dependencies {
     compile("org.apache.commons:commons-lang3:${lang3Version}")
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("io.projectreactor:reactor-test")
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", "WebFlux Proof of Concept"
+        property "sonar.projectKey", "${groupId}:${artifactId}"
+        property "sonar.projectVersion", "${projectVersion}"
+    }
 }
