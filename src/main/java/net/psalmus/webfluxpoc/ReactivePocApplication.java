@@ -9,6 +9,7 @@ package net.psalmus.webfluxpoc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * The application's main class
@@ -17,6 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2019/07/10
  */
 @SpringBootApplication
+@ComponentScan({"net.psalmus.webfluxpoc.router", "net.psalmus.webfluxpoc.handler"})
 public class ReactivePocApplication {
 
     /**
